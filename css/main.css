@@ -210,6 +210,7 @@
     position: relative;
   }
   .dept1__item-link {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     display: block;
     position: relative;
     width: 100%;
