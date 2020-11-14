@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 나눔바른고딕 CDN -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@latest/nanumbarungothicsubset.css"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+
+    <!-- Link util.css -->
+    <link rel="stylesheet" href="css/util.css" />
+    <!-- Link style.css -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>청주시청</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <!-- Top-popup -->
+      <div id="pop">
+        <div class="pop-container">
+          <div class="pop__content">
+            <a href="https://www.cheongju.go.kr/site/minseon/main.html">
+              <img src="img/top-popup.jpg" class="pop__img" alt="" />
+            </a>
+          </div>
+          <div class="pop__close-wrap">
+            <form method="post" action="" name="pop_form">
+              <span id="check"
+                ><input
+                  type="checkbox"
+                  value="checkbox"
+                  name="chkbox"
+                  id="chkday"
+                /><label for="chkday" class="pop__desc"
+                  >오늘 하루 보지 않음</label
+                ></span
+              >
+              <span id="pop__close">[닫기]</span>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- GNB -->
+      <div class="gnb">
+        <div class="gnb-container">
+          <div class="gnb-wrapper">
+            <!-- logo -->
+            <div class="logo">
+              <a href="logo__link">
+                <img src="img/logo-white.png" class="logo__img" alt="" />
+              </a>
+            </div>
+            <!-- dept1-wrap -->
+            <div class="dept1-wrap">
+              <!-- dept1 -->
+              <ul class="dept1">
+                <!-- dept1__item -->
+                <li class="dept1__item">
+                  <a href="#" class="dept1__item-link" data-order="1"
+                    >정보공개</a
+                  >
+                  <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
+                  <!-- dept2-wrap -->
+                  <div class="dept2-wrap" data-order="1">
+                    <div class="dept2-wrap__left">정보공개</div>
+                    <!-- dept2 -->
+                    <ul class="dept2">
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="1"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="1">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="2"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="2">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="3"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="3">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="4"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="4">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="5"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="5">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- dept1__item -->
+                <li class="dept1__item">
+                  <a href="#" class="dept1__item-link" data-order="2"
+                    >정보공개</a
+                  >
+                  <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
+                  <!-- dept2-wrap -->
+                  <div class="dept2-wrap" data-order="2">
+                    <div class="dept2-wrap__left">정보공개</div>
+                    <!-- dept2 -->
+                    <ul class="dept2">
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="1"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="1">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="2"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="2">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="3"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="3">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="4"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="4">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="5"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="5">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- dept1__item -->
+                <li class="dept1__item">
+                  <a href="#" class="dept1__item-link" data-order="3"
+                    >정보공개</a
+                  >
+                  <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
+                  <!-- dept2-wrap -->
+                  <div class="dept2-wrap" data-order="3">
+                    <div class="dept2-wrap__left">정보공개</div>
+                    <!-- dept2 -->
+                    <ul class="dept2">
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="1"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="1">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="2"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="2">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="3"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="3">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="4"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="4">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="5"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="5">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- dept1__item -->
+                <li class="dept1__item">
+                  <a href="#" class="dept1__item-link" data-order="4"
+                    >정보공개</a
+                  >
+                  <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
+                  <!-- dept2-wrap -->
+                  <div class="dept2-wrap" data-order="4">
+                    <div class="dept2-wrap__left">정보공개</div>
+                    <!-- dept2 -->
+                    <ul class="dept2">
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="1"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="1">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="2"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="2">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="3"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="3">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="4"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="4">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="5"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="5">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- dept1__item -->
+                <li class="dept1__item">
+                  <a href="#" class="dept1__item-link" data-order="5"
+                    >정보공개</a
+                  >
+                  <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
+                  <!-- dept2-wrap -->
+                  <div class="dept2-wrap" data-order="5">
+                    <div class="dept2-wrap__left">정보공개</div>
+                    <!-- dept2 -->
+                    <ul class="dept2">
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="1"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="1">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="2"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="2">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="3"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="3">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="4"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="4">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="5"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="5">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- dept1__item -->
+                <li class="dept1__item">
+                  <a href="#" class="dept1__item-link" data-order="6"
+                    >정보공개</a
+                  >
+                  <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
+                  <!-- dept2-wrap -->
+                  <div class="dept2-wrap" data-order="6">
+                    <div class="dept2-wrap__left">정보공개</div>
+                    <!-- dept2 -->
+                    <ul class="dept2">
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="1"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="1">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="2"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="2">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="3"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="3">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="4"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="4">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="5"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="5">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- dept1__item -->
+                <li class="dept1__item">
+                  <a href="#" class="dept1__item-link text-point" data-order="7"
+                    >정보공개</a
+                  >
+                  <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
+                  <!-- dept2-wrap -->
+                  <div class="dept2-wrap" data-order="7">
+                    <div class="dept2-wrap__left">정보공개</div>
+                    <!-- dept2 -->
+                    <ul class="dept2">
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="1"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="1">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="2"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="2">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="3"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="3">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="4"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="4">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept2__item -->
+                      <li class="dept2__item">
+                        <a href="#" class="dept2__item-link" data-order="5"
+                          >dept2</a
+                        >
+                        <!-- dept3 -->
+                        <div class="dept3-wrap" data-order="5">
+                          <ul class="dept3">
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-1</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-2</a>
+                            </li>
+                            <li class="dept3__item">
+                              <a href="#" class="dept3__item-link">dept3-3</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- Gnb Util -->
+            <div class="gnb__util">
+              <a href="">로그인</a>
+              <!-- language -->
+              <div class="lang">
+                <a href="#" class="lang__link">LANGUAGE</a>
+                <ul class="lang-list">
+                  <li class="lang-list__item">
+                    <a href="" class="lang-list__item-link">ENGLISH</a>
+                  </li>
+                  <li class="lang-list__item">
+                    <a href="" class="lang-list__item-link">JAPANESE</a>
+                  </li>
+                  <li class="lang-list__item">
+                    <a href="" class="lang-list__item-link">CHINESE</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Jquery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Link main.js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
