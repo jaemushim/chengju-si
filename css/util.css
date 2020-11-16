@@ -31,3 +31,18 @@ td {
 img {
   display: inline-block;
 }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.pc {
+  display: none !important;
+}
+@media only screen and (min-width: 1024px) {
+  .pc {
+    display: block !important;
+  }
+}
