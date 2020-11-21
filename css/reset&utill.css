@@ -1,0 +1,59 @@
+/* 리셋 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-family: "NanumBarunGothic", sans-serif;
+}
+li {
+  list-style: none;
+}
+img {
+  display: inline-block;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+em {
+  font-style: normal;
+}
+strong {
+  font-weight: 500;
+}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.slick-slide img {
+  margin: auto;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #333;
+}
+/* 유틸 */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.flex {
+  display: flex;
+}
+.none {
+  display: none;
+}
