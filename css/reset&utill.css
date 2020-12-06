@@ -1,3 +1,9 @@
+@font-face {
+  src: url("../fonts/MAKGEOLLI.ttf");
+
+  font-family: "makgeolli";
+}
+
 /* 리셋 */
 * {
   box-sizing: border-box;
@@ -6,14 +12,13 @@
   border: 0;
 }
 body {
-  font-family: "NanumBarunGothic", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 li {
   list-style: none;
 }
 img {
   display: inline-block;
-  width: 100%;
 }
 a {
   text-decoration: none;
@@ -40,6 +45,40 @@ button,
 .slick-next:before {
   color: #333;
 }
+
+.slick-prev:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 10px;
+  height: 14px;
+  margin: auto;
+  background-image: url(../img/deco_sprite.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.slick-next:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 10px;
+  height: 14px;
+  margin: auto;
+  background-image: url(../img/deco_sprite.png);
+  background-repeat: no-repeat;
+  background-position: left -48px;
+}
+address {
+  font-style: normal;
+}
 /* 유틸 */
 .container {
   max-width: 1200px;
@@ -56,4 +95,7 @@ button,
 }
 .none {
   display: none;
+}
+.em-red {
+  color: #df0101;
 }
