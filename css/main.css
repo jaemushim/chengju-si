@@ -649,6 +649,9 @@
 .search-sec {
   padding: 20px 0;
 }
+.search-sec > h2 {
+  font-size: 0px;
+}
 .search-sec__logo {
   width: 270px;
 }
