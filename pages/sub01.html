@@ -37,2112 +37,2131 @@
     <title>청주시청</title>
   </head>
   <body>
-    <!-- 헤더 -->
-    <header class="header">
-        <!-- 상단 팝업창 -->
-        <div id="top-pop">
-          <div class="pop-container">
-            <div class="top-pop__content">
-              <a href="https://www.cheongju.go.kr/site/minseon/main.html">
-                <img src="../img/top-popup.jpg" class="top-pop__img" alt="" />
-              </a>
-            </div>
-            <div class="top-pop__close-wrap">
-              <form method="post" action="" name="top-pop_form">
-                <span id="check"
-                  ><input
-                    type="checkbox"
-                    value="checkbox"
-                    name="chkbox"
-                    id="chkday"
-                  /><label for="chkday" class="top-pop__desc"
-                    >오늘 하루 보지 않음</label
-                  ></span
-                >
-                <span id="top-pop__close"><a href="#">[닫기]</a></span>
-              </form>
-            </div>
-          </div>
+    <div class="skip">
+      <a href="#main">본문내용바로가기</a>
+    </div>
+
+   <!-- 헤더 -->
+   <header class="header">
+    <!-- 홈페이지 상단 팝업 -->
+    <div id="top-pop">
+      <div class="pop-container">
+        <div class="top-pop__content">
+          <a href="https://www.cheongju.go.kr/site/minseon/main.html">
+            <img src="../img/top-popup.jpg" alt="함께 웃는 청주 2년 / 민선7기 2주년 기념 특별웹페이지" class="top-pop__img" />
+          </a>
         </div>
+        <div class="top-pop__close-wrap">
+          <form method="post" action="" name="top-pop_form">
+            <span id="check"
+              ><input
+                type="checkbox"
+                value="checkbox"
+                name="chkbox"
+                id="chkday"
+              /><label for="chkday" class="top-pop__desc"
+                >오늘 하루 보지 않음</label
+              ></span
+            >
+            <span id="top-pop__close"><a href="#">[닫기]</a></span>
+          </form>
+        </div>
+      </div>
+    </div>
 
-      <!-- 메인메뉴 (GNB) -->
-      <div class="gnb">
-        <div class="gnb-container">
-          <div class="gnb-wrapper">
-            <!-- 모바일 햄버거 아이콘 -->
-            <i class="fa fa-bars m-hamberger" aria-hidden="true"></i>
-            <!-- 로고 -->
-            <div class="logo">
-              <a href="/" class="logo__link">
-                <img src="../img/logo-white.png" class="logo__img" alt="" />
-              </a>
-            </div>
-            <!-- 모바일 검색 -->
-            <i class="fa fa-search m-search" aria-hidden="true"></i>
-
-            <!-- dept-1-wrap -->
-            <div class="dept-1-wrap">
-              <!-- m-util -->
-              <div class="m-utill">
-                <div class="m-utill-wrap">
-                  <div class="m-login-wrap">
-                    <i
-                      class="fa fa-user m-utill__login-icon"
-                      aria-hidden="true"
-                    ></i>
-                    <span class="m-utill__login-text">로그인</span>
-                  </div>
-                  <div class="m-lang-wrap">
-                    <i
-                      class="fa fa-globe m-utill__globe-icon"
-                      aria-hidden="true"
-                    ></i>
-                    <span class="lang">
-                      <a href="#" class="lang__link">LANGUAGE</a>
-                      <ul class="lang-list">
-                        <li class="lang-list__item">
-                          <a href="" class="lang-list__item-link">ENGLISH</a>
-                        </li>
-                        <li class="lang-list__item">
-                          <a href="" class="lang-list__item-link">JAPANESE</a>
-                        </li>
-                        <li class="lang-list__item">
-                          <a href="" class="lang-list__item-link">CHINESE</a>
-                        </li>
-                      </ul>
-                    </span>
-                  </div>
-                </div>
-                <i class="fa fa-times m-menu-close" aria-hidden="true"></i>
-              </div>
-              <!-- dept-1 -->
-              <ul class="dept-1">
-                <!-- dept-1__item -->
-                <li class="dept-1__item">
-                  <a href="#" class="dept-1__item-link" data-order="1"
-                    >정보공개
-                  </a>
-
-                  <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
-                  <!-- dept-2-wrap -->
-                  <div class="dept-2-wrap" data-order="1">
-                    <div class="flex">
-                      <div class="dept-2-wrap__left">
-                        정보공개
-                        <div class="dept-2-wrap__left-img"></div>
-                      </div>
-                      <!-- dept-2 -->
-                      <ul class="dept-2">
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="1"
-                            >정보공개제도</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="1">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >정보공개제도 안내</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >정보공개청구</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >비공개대상정보 세부기준</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >사전정보공표</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >정보목록(일별)</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >공공데이터</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >정책실명제</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >정보공개방</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >학술연구용역</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="2"
-                            >정책토론방</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="2">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >전자공청회</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >정책토론</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >설문조사</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="3"
-                            >규제개혁</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="3">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >규제개혁이란?</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >행정규제사무목록</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주시 규제신고센터</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >국무조정실 규제개혁신문고</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >규제입증요청</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link">자료실</a>
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >지방기업 규제애로 신고센터</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="4"
-                            >시 살림살이</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="4">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >예산/결산</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >재정공시</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >세입세출 매일공개</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >시민참여예산</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="5"
-                            >지방공기업정보</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="5">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >지방공기업이란</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link">자료실</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="6"
-                            >계약/입찰정보</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="6">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >발주계획</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >입찰공고</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >개찰결과</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >계약현황(1인수의포함)</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >대금지급</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="7"
-                            >법제도정보</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="7">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >입법예고</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >달라지는제도</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >민원관계법령</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >도시관련법규</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >자차법규(조례)</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="8"
-                            >청렴/감사정보</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="8">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청렴,감사 정보공개</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청탁금지법</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >부조리신고센터</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >부패방지관계법령 및 제도</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="9"
-                            >조직정보 공개</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="9">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >공무원 정원</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >과장급 이상 상위직 비율</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >공무원 1인당 주민수</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >소속기관 및 읍면동 공무원비율</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >재정규모 대비 인건비 운영비율</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="10"
-                            >행정서비스 헌장</a
-                          >
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap pc" data-order="10">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link none"></a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="11"
-                            >인사정보 공개</a
-                          >
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap pc" data-order="11">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link none"></a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+    <!-- 메인메뉴 (GNB) -->
+    <div class="gnb">
+      <div class="gnb-container">
+        <!--gnb-top -->
+        <div class="gnb-top">
+          <ul class="left">
+            <li>
+              <a href="/index.html">청주시청</a>
+            </li>
+            <li>
+              <a href="">청주1번가</a>
+            </li>
+            <li>
+              <a href="">문화관광</a>
+            </li>
+            <li>
+              <a href="">청주시의회</a>
+            </li>
+          </ul>
+          
+          <!-- Gnb Util -->
+          <div class="gnb__util">
+            <a href="" class="login">로그인</a>
+            <!-- language -->
+            <div class="lang">
+              <a href="#" class="lang__link">LANGUAGE</a>
+              <ul class="lang-list">
+                <li class="lang-list__item">
+                  <a href="" class="lang-list__item-link">ENGLISH</a>
                 </li>
-                <!-- dept-1__item -->
-                <li class="dept-1__item">
-                  <a href="#" class="dept-1__item-link" data-order="2"
-                    >전자민원</a
-                  >
-                  <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
-                  <!-- dept-2-wrap -->
-                  <div class="dept-2-wrap" data-order="2">
-                    <div class="flex">
-                      <div class="dept-2-wrap__left">
-                        전자민원
-                        <div class="dept-2-wrap__left-img"></div>
-                      </div>
-                      <!-- dept-2 -->
-                      <ul class="dept-2">
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="1"
-                            >민원안내</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="1">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >민원실안내</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >민원편람</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >민원처리절차</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >어디서나민원처리제</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >사전심사청구제</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >폐업신고 간서화 서비스</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >건강가족(결혼중개업)</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >110 채팅·화상(수화)상담
-                                </a>
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >구술민원</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주사랑카드</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주시 지정광고물 게시시설 이용신청</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="2"
-                            >365민원콜센터</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="2">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주365민원콜센터</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >생활민원안내 요령</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="3"
-                            >여권업무</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="3">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >여권업무안내</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >여권민원서식</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >국가별안전정보</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="4"
-                            >민원신청</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="4">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >민원상담(국민신문고)</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link">정부24</a>
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >정부민원안내콜센터</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >가로등보안등고장접수</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >통신판매업신고안내</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >사용전검사필증발급</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >대법원 전자가족관계등록 시스템</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="5"
-                            >민원확인</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="5">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >민원조회</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >2016년8월 이후 민원보기</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >2016년8월 이전 민원보기</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >2013년 이전 민원보기</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="6"
-                            >공지비리·부패신고센터</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="6">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >복지·보조금 부정신고</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >공익신고</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >부패행위신고</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >예산낭비신고센터</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >공직비리 익명신고센터</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >공공분야 갑질피해 신고방</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >부정청탁 및 금품등 수수 신고센터</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >위조상품신고</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >불법하도급신고센터</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >공공재정 부정청구등 신고</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="7"
-                            >무인민원발급</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="7">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >무인민원발급창구설치현황</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >발급안내</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >제증명수수료</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="8"
-                            >대형폐기물 배출신고</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="8">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >배출신고 인터넷신청</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >대형폐기물 무인발급 안내</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+                <li class="lang-list__item">
+                  <a href="" class="lang-list__item-link">JAPANESE</a>
                 </li>
-                <!-- dept-1__item -->
-                <li class="dept-1__item">
-                  <a href="#" class="dept-1__item-link" data-order="3"
-                    >시민참여</a
-                  >
-                  <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
-                  <!-- dept-2-wrap -->
-                  <div class="dept-2-wrap" data-order="3">
-                    <div class="flex">
-                      <div class="dept-2-wrap__left">
-                        시민참여
-                        <div class="dept-2-wrap__left-img"></div>
-                      </div>
-                      <!-- dept-2 -->
-                      <ul class="dept-2">
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="1"
-                            >상상발전제안(시민제안)</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="1">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >상상발전안내</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="2"
-                            >시민참여</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="2">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >칭찬합시다</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >설문조사</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >홍보게시판</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >자유게시판</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="3"
-                            >신청접수</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="3">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주시민신문 신청</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >수소자동차 민간보조사업</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >학생승마체험</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >길고양이중성화 사업</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주여유우편 구독신청</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >조기폐차지원 온라인신청</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="4"
-                            >적극행정</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="4">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >적극행정이란?</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >적극행정시민추천</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >적극행정시민추천 내역조회</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >알림·소식</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >중앙부처 법령 유권해석</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >법제처 법령 유권해석</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >소극행정 신고센터</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="5"
-                            >홈페이지 오류사항</a
-                          >
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap pc" data-order="5">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link none"></a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <!-- dept-1__item -->
-                <li class="dept-1__item">
-                  <a href="#" class="dept-1__item-link" data-order="4"
-                    >시정소식</a
-                  >
-                  <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
-                  <!-- dept-2-wrap -->
-                  <div class="dept-2-wrap" data-order="4">
-                    <div class="flex">
-                      <div class="dept-2-wrap__left">
-                        시정소식
-                        <div class="dept-2-wrap__left-img"></div>
-                      </div>
-                      <!-- dept-2 -->
-                      <ul class="dept-2">
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="1"
-                            >청주소식</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="1">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주시보</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주여유</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >TV청주시정소식</a
-                                >
-                              </li>
-
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주시민신문</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주시홍보자료</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주시홍보동영상</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >도정소식지</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >도정보도자료</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="2"
-                            >새소식</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="2">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link">새소식</a>
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >공지사항</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >고사공고</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >언론보도해명</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >인사발령</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >시험채용</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >분묘개장공고</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="3"
-                            >주요일정</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="3">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >주간행사</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >시정일지</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주시 일정</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="4"
-                            >청원청주 상생발전 추진현황</a
-                          >
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap pc" data-order="4">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link none"></a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <!-- dept-1__item -->
-                <li class="dept-1__item">
-                  <a href="#" class="dept-1__item-link" data-order="5"
-                    >분야별정보</a
-                  >
-                  <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
-                  <!-- dept-2-wrap -->
-                  <div class="dept-2-wrap" data-order="5">
-                    <div class="flex">
-                      <div class="dept-2-wrap__left">
-                        분야별정보
-                        <div class="dept-2-wrap__left-img"></div>
-                      </div>
-                      <!-- dept-2 -->
-                      <ul class="dept-2">
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="1"
-                            >가족/복지</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="1">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >사회복지</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >여성복지</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >아동/어린이</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청소년/청년</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link">어르신</a>
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link">장애인</a>
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >건강가족</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >복지서비스신청</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="2"
-                            >경제/일자리/농정</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="2">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >중소기업</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >공장등록현황</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >투자기업지원</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >사회적기업</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >산업단지</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >기업/창업지원</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >일자리창출/취업지원</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >지역물가정보</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >전통시장</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주상권분석</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >농촌일손돕기</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >농산물도매시장</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청년일자리사업</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주페이</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="3"
-                            >세금</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="3">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >지방세달력</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >지방세 세금납부</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >세금공과금 조회/납부</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주시 살림살이</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >지방세 개요</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >세목별 안내</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >세목별 납기 및 세율</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >지방세 구제제도</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >지방세 가산세체계</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >세외수입</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >지방세 환급금 찾기</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >마을세무사</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >납세자보호관</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주시 지방세 선정대리인제도</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="4"
-                            >안전/재난</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="4">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >공사현황</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >안전신문고</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >재난안전</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >CCTV통합관제센터</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >재난문자 SMS알림서비스신청</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >위해관리계획 주민고지시스템</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link">민방위</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="5"
-                            >도시/주택/부동산</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="5">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >도시계획</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link">건축</a>
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link">주택</a>
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >주거환경개선/주택재건축</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >부동산정보</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link">지적</a>
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >공간정보</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >공유재산</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >공원/녹지</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >전문건설업</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >지구단위계획</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >도시재생</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >건축 민간전문가</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="6"
-                            >환경/청소</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="6">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >분야별환경정보</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >환경개선부담금</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >미세먼지</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >대기오염정보</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >무인악취측정정보</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >수질검사결과</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >탄소포인트제</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link">청소</a>
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link">하수도</a>
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >위반업소정보</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="7"
-                            >교육/생활/교통</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="7">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >교육정보</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >도서관안내</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >열린화장실</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주시자원봉사센터</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >유기동물찾기</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >온라인행정심판</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >민간보조사업자관리</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >도로/교통</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="8"
-                            >보건/체육</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="8">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >야간진료의료기관</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >의료기관</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link">약국</a>
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >안전상비의약품 현황</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >지역보건의료계획</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >동네체육시설안내</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >체육행사안내</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="9"
-                            >위생</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="9">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >식품위생</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >공증위생</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <!-- dept-1__item -->
-                <li class="dept-1__item">
-                  <a href="#" class="dept-1__item-link" data-order="6"
-                    >청주소개</a
-                  >
-                  <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
-                  <!-- dept-2-wrap -->
-                  <div class="dept-2-wrap" data-order="6">
-                    <div class="flex">
-                      <div class="dept-2-wrap__left">
-                        청주소개
-                        <div class="dept-2-wrap__left-img"></div>
-                      </div>
-                      <!-- dept-2 -->
-                      <ul class="dept-2">
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="1"
-                            >시청안내</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="1">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >조직안내</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >직원/업무안내</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청사안내</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >찾아오시는길</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >부서별 팩스번호</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="2"
-                            >일반현황</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="2">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >역사와유래</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >위치/기후</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주시행정지도</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >행정동, 법정동 현황</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >읍면동 행정복지센터 찾기</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주시 통계정보</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >충절지사</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="3"
-                            >청주의 상징</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="3">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link">CI</a>
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >시화/시목</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link">QR코드</a>
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주시민의 노래</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주자랑 100가지</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="4"
-                            >사진으로 보는 역사기록집</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="4">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >(구)청주시</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >(구)청원군</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="5"
-                            >교류현황</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="5">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >국외자매도시</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >국외우호도시</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >국내자매우호도시</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="6"
-                            >역대시장</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="6">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >역대 청주시장</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >역대 (구)청주시장</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >역대 (구)청원군수</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="7"
-                            >청주시 모바일 서비스</a
-                          >
-                          <i
-                            class="fa fa-plus menu-plus"
-                            aria-hidden="true"
-                          ></i>
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap" data-order="7">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주시 안전지키미</a
-                                >
-                              </li>
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link"
-                                  >청주시 소통팔달</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="8"
-                            >청주시지</a
-                          >
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap pc" data-order="8">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link none"></a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="9"
-                            >시정목표 및 시정방침</a
-                          >
-                          <!-- dept-3 -->
-                          <div class="dept-3-wrap pc" data-order="9">
-                            <ul class="dept-3">
-                              <li class="dept-3__item">
-                                <a href="#" class="dept-3__item-link none"></a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <!-- dept-1__item -->
-                <li class="dept-1__item">
-                  <a
-                    href="#"
-                    class="dept-1__item-link text-point"
-                    data-order="7"
-                    >문화관광</a
-                  >
-                  <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
-                  <!-- dept-2-wrap -->
-                  <div class="dept-2-wrap dept-2-culture" data-order="7">
-                    <div class="container">
-                      <!-- dept-2 -->
-                      <ul class="dept-2">
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="1"
-                            >관광명소</a
-                          >
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="2"
-                            >축제행사</a
-                          >
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="3"
-                            >시티투어</a
-                          >
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="4"
-                            >숙박</a
-                          >
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="5"
-                            >맛집</a
-                          >
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="6"
-                            >스토리텔링 e-book</a
-                          >
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="7"
-                            >청주자랑 100선</a
-                          >
-                        </li>
-                        <!-- dept-2__item -->
-                        <li class="dept-2__item">
-                          <a href="#" class="dept-2__item-link" data-order="8"
-                            >VR 사이버투어</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+                <li class="lang-list__item">
+                  <a href="" class="lang-list__item-link">CHINESE</a>
                 </li>
               </ul>
             </div>
-            <div class="m-shade"></div>
-            <!-- Gnb Util -->
-            <div class="gnb__util">
-              <a href="">로그인</a>
-              <!-- language -->
-              <div class="lang">
-                <a href="#" class="lang__link">LANGUAGE</a>
-                <ul class="lang-list">
-                  <li class="lang-list__item">
-                    <a href="" class="lang-list__item-link">ENGLISH</a>
-                  </li>
-                  <li class="lang-list__item">
-                    <a href="" class="lang-list__item-link">JAPANESE</a>
-                  </li>
-                  <li class="lang-list__item">
-                    <a href="" class="lang-list__item-link">CHINESE</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
+        <div class="gnb-bottom">
+          <!-- 모바일 햄버거 아이콘 -->
+          <i class="fa fa-bars m-hamberger" aria-hidden="true"></i>
+          <!-- 로고 -->
+          <div class="logo">
+            <a href="/index.html" class="logo__link">
+              <img src="../img/logo-white.png" class="logo__img" alt="청주시 CHENGJU CITY" />
+            </a>
+          </div>
+          <!-- 모바일 검색 -->
+          <i class="fa fa-search m-search" aria-hidden="true"></i>
+
+          <!-- dept-1-wrap -->
+          <div class="dept-1-wrap">
+            <!-- m-util -->
+            <div class="m-utill">
+              <div class="m-utill-wrap">
+                <div class="m-login-wrap">
+                  <i
+                    class="fa fa-user m-utill__login-icon"
+                    aria-hidden="true"
+                  ></i>
+                  <span class="m-utill__login-text">로그인</span>
+                </div>
+                <div class="m-lang-wrap">
+                  <i
+                    class="fa fa-globe m-utill__globe-icon"
+                    aria-hidden="true"
+                  ></i>
+                  <span class="lang">
+                    <a href="#" class="lang__link">LANGUAGE</a>
+                    <ul class="lang-list">
+                      <li class="lang-list__item">
+                        <a href="" class="lang-list__item-link">ENGLISH</a>
+                      </li>
+                      <li class="lang-list__item">
+                        <a href="" class="lang-list__item-link">JAPANESE</a>
+                      </li>
+                      <li class="lang-list__item">
+                        <a href="" class="lang-list__item-link">CHINESE</a>
+                      </li>
+                    </ul>
+                  </span>
+                </div>
+              </div>
+              <i class="fa fa-times m-menu-close" aria-hidden="true"></i>
+            </div>
+            <!-- dept-1 -->
+            <ul class="dept-1">
+              <!-- dept-1__item -->
+              <li class="dept-1__item">
+                <a href="#" class="dept-1__item-link" data-order="1"
+                  >정보공개
+                </a>
+
+                <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
+                <!-- dept-2-wrap -->
+                <div class="dept-2-wrap" data-order="1">
+                  <div class="flex">
+                    <div class="dept-2-wrap__left">
+                      정보공개
+                      <div class="dept-2-wrap__left-img"></div>
+                    </div>
+                    <!-- dept-2 -->
+                    <ul class="dept-2">
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="pages/sub01.html" class="dept-2__item-link" data-order="1"
+                          >정보공개제도</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="1">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="pages/sub01.html" class="dept-3__item-link"
+                                >정보공개제도 안내</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="pages/sub01.html" class="dept-3__item-link"
+                                >정보공개청구</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="pages/sub01.html" class="dept-3__item-link"
+                                >비공개대상정보 세부기준</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="pages/sub01.html" class="dept-3__item-link"
+                                >사전정보공표</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="pages/sub01.html" class="dept-3__item-link"
+                                >정보목록(일별)</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="pages/sub01.html" class="dept-3__item-link"
+                                >공공데이터</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="pages/sub01.html" class="dept-3__item-link"
+                                >정책실명제</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="pages/sub01.html" class="dept-3__item-link"
+                                >정보공개방</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="pages/sub01.html" class="dept-3__item-link"
+                                >학술연구용역</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="2"
+                          >정책토론방</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="2">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >전자공청회</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >정책토론</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >설문조사</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="3"
+                          >규제개혁</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="3">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >규제개혁이란?</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >행정규제사무목록</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주시 규제신고센터</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >국무조정실 규제개혁신문고</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >규제입증요청</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link">자료실</a>
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >지방기업 규제애로 신고센터</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="4"
+                          >시 살림살이</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="4">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >예산/결산</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >재정공시</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >세입세출 매일공개</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >시민참여예산</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="5"
+                          >지방공기업정보</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="5">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >지방공기업이란</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link">자료실</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="6"
+                          >계약/입찰정보</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="6">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >발주계획</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >입찰공고</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >개찰결과</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >계약현황(1인수의포함)</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >대금지급</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="7"
+                          >법제도정보</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="7">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >입법예고</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >달라지는제도</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >민원관계법령</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >도시관련법규</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >자차법규(조례)</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="8"
+                          >청렴/감사정보</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="8">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청렴,감사 정보공개</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청탁금지법</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >부조리신고센터</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >부패방지관계법령 및 제도</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="9"
+                          >조직정보 공개</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="9">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >공무원 정원</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >과장급 이상 상위직 비율</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >공무원 1인당 주민수</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >소속기관 및 읍면동 공무원비율</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >재정규모 대비 인건비 운영비율</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="10"
+                          >행정서비스 헌장</a
+                        >
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap pc" data-order="10">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link none"></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="11"
+                          >인사정보 공개</a
+                        >
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap pc" data-order="11">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link none"></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <!-- dept-1__item -->
+              <li class="dept-1__item">
+                <a href="#" class="dept-1__item-link" data-order="2"
+                  >전자민원</a
+                >
+                <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
+                <!-- dept-2-wrap -->
+                <div class="dept-2-wrap" data-order="2">
+                  <div class="flex">
+                    <div class="dept-2-wrap__left">
+                      전자민원
+                      <div class="dept-2-wrap__left-img"></div>
+                    </div>
+                    <!-- dept-2 -->
+                    <ul class="dept-2">
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="1"
+                          >민원안내</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="1">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >민원실안내</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >민원편람</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >민원처리절차</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >어디서나민원처리제</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >사전심사청구제</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >폐업신고 간서화 서비스</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >건강가족(결혼중개업)</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >110 채팅·화상(수화)상담
+                              </a>
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >구술민원</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주사랑카드</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주시 지정광고물 게시시설 이용신청</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="2"
+                          >365민원콜센터</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="2">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주365민원콜센터</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >생활민원안내 요령</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="3"
+                          >여권업무</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="3">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >여권업무안내</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >여권민원서식</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >국가별안전정보</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="4"
+                          >민원신청</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="4">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >민원상담(국민신문고)</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link">정부24</a>
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >정부민원안내콜센터</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >가로등보안등고장접수</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >통신판매업신고안내</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >사용전검사필증발급</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >대법원 전자가족관계등록 시스템</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="5"
+                          >민원확인</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="5">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >민원조회</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >2016년8월 이후 민원보기</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >2016년8월 이전 민원보기</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >2013년 이전 민원보기</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="6"
+                          >공지비리·부패신고센터</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="6">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >복지·보조금 부정신고</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >공익신고</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >부패행위신고</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >예산낭비신고센터</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >공직비리 익명신고센터</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >공공분야 갑질피해 신고방</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >부정청탁 및 금품등 수수 신고센터</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >위조상품신고</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >불법하도급신고센터</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >공공재정 부정청구등 신고</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="7"
+                          >무인민원발급</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="7">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >무인민원발급창구설치현황</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >발급안내</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >제증명수수료</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="8"
+                          >대형폐기물 배출신고</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="8">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >배출신고 인터넷신청</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >대형폐기물 무인발급 안내</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <!-- dept-1__item -->
+              <li class="dept-1__item">
+                <a href="#" class="dept-1__item-link" data-order="3"
+                  >시민참여</a
+                >
+                <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
+                <!-- dept-2-wrap -->
+                <div class="dept-2-wrap" data-order="3">
+                  <div class="flex">
+                    <div class="dept-2-wrap__left">
+                      시민참여
+                      <div class="dept-2-wrap__left-img"></div>
+                    </div>
+                    <!-- dept-2 -->
+                    <ul class="dept-2">
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="1"
+                          >상상발전제안(시민제안)</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="1">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >상상발전안내</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="2"
+                          >시민참여</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="2">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >칭찬합시다</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >설문조사</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >홍보게시판</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >자유게시판</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="3"
+                          >신청접수</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="3">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주시민신문 신청</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >수소자동차 민간보조사업</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >학생승마체험</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >길고양이중성화 사업</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주여유우편 구독신청</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >조기폐차지원 온라인신청</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="4"
+                          >적극행정</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="4">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >적극행정이란?</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >적극행정시민추천</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >적극행정시민추천 내역조회</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >알림·소식</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >중앙부처 법령 유권해석</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >법제처 법령 유권해석</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >소극행정 신고센터</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="5"
+                          >홈페이지 오류사항</a
+                        >
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap pc" data-order="5">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link none"></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <!-- dept-1__item -->
+              <li class="dept-1__item">
+                <a href="#" class="dept-1__item-link" data-order="4"
+                  >시정소식</a
+                >
+                <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
+                <!-- dept-2-wrap -->
+                <div class="dept-2-wrap" data-order="4">
+                  <div class="flex">
+                    <div class="dept-2-wrap__left">
+                      시정소식
+                      <div class="dept-2-wrap__left-img"></div>
+                    </div>
+                    <!-- dept-2 -->
+                    <ul class="dept-2">
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="1"
+                          >청주소식</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="1">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주시보</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주여유</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >TV청주시정소식</a
+                              >
+                            </li>
+
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주시민신문</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주시홍보자료</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주시홍보동영상</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >도정소식지</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >도정보도자료</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="2"
+                          >새소식</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="2">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link">새소식</a>
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >공지사항</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >고사공고</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >언론보도해명</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >인사발령</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >시험채용</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >분묘개장공고</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="3"
+                          >주요일정</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="3">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >주간행사</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >시정일지</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주시 일정</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="4"
+                          >청원청주 상생발전 추진현황</a
+                        >
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap pc" data-order="4">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link none"></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <!-- dept-1__item -->
+              <li class="dept-1__item">
+                <a href="#" class="dept-1__item-link" data-order="5"
+                  >분야별정보</a
+                >
+                <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
+                <!-- dept-2-wrap -->
+                <div class="dept-2-wrap" data-order="5">
+                  <div class="flex">
+                    <div class="dept-2-wrap__left">
+                      분야별정보
+                      <div class="dept-2-wrap__left-img"></div>
+                    </div>
+                    <!-- dept-2 -->
+                    <ul class="dept-2">
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="1"
+                          >가족/복지</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="1">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >사회복지</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >여성복지</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >아동/어린이</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청소년/청년</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link">어르신</a>
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link">장애인</a>
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >건강가족</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >복지서비스신청</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="2"
+                          >경제/일자리/농정</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="2">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >중소기업</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >공장등록현황</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >투자기업지원</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >사회적기업</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >산업단지</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >기업/창업지원</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >일자리창출/취업지원</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >지역물가정보</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >전통시장</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주상권분석</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >농촌일손돕기</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >농산물도매시장</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청년일자리사업</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주페이</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="3"
+                          >세금</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="3">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >지방세달력</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >지방세 세금납부</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >세금공과금 조회/납부</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주시 살림살이</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >지방세 개요</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >세목별 안내</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >세목별 납기 및 세율</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >지방세 구제제도</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >지방세 가산세체계</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >세외수입</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >지방세 환급금 찾기</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >마을세무사</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >납세자보호관</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주시 지방세 선정대리인제도</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="4"
+                          >안전/재난</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="4">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >공사현황</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >안전신문고</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >재난안전</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >CCTV통합관제센터</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >재난문자 SMS알림서비스신청</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >위해관리계획 주민고지시스템</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link">민방위</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="5"
+                          >도시/주택/부동산</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="5">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >도시계획</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link">건축</a>
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link">주택</a>
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >주거환경개선/주택재건축</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >부동산정보</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link">지적</a>
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >공간정보</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >공유재산</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >공원/녹지</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >전문건설업</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >지구단위계획</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >도시재생</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >건축 민간전문가</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="6"
+                          >환경/청소</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="6">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >분야별환경정보</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >환경개선부담금</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >미세먼지</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >대기오염정보</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >무인악취측정정보</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >수질검사결과</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >탄소포인트제</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link">청소</a>
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link">하수도</a>
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >위반업소정보</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="7"
+                          >교육/생활/교통</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="7">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >교육정보</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >도서관안내</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >열린화장실</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주시자원봉사센터</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >유기동물찾기</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >온라인행정심판</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >민간보조사업자관리</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >도로/교통</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="8"
+                          >보건/체육</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="8">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >야간진료의료기관</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >의료기관</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link">약국</a>
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >안전상비의약품 현황</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >지역보건의료계획</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >동네체육시설안내</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >체육행사안내</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="9"
+                          >위생</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="9">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >식품위생</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >공증위생</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <!-- dept-1__item -->
+              <li class="dept-1__item">
+                <a href="#" class="dept-1__item-link" data-order="6"
+                  >청주소개</a
+                >
+                <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
+                <!-- dept-2-wrap -->
+                <div class="dept-2-wrap" data-order="6">
+                  <div class="flex">
+                    <div class="dept-2-wrap__left">
+                      청주소개
+                      <div class="dept-2-wrap__left-img"></div>
+                    </div>
+                    <!-- dept-2 -->
+                    <ul class="dept-2">
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="1"
+                          >시청안내</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="1">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >조직안내</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >직원/업무안내</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청사안내</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >찾아오시는길</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >부서별 팩스번호</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="2"
+                          >일반현황</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="2">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >역사와유래</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >위치/기후</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주시행정지도</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >행정동, 법정동 현황</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >읍면동 행정복지센터 찾기</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주시 통계정보</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >충절지사</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="3"
+                          >청주의 상징</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="3">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link">CI</a>
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >시화/시목</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link">QR코드</a>
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주시민의 노래</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주자랑 100가지</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="4"
+                          >사진으로 보는 역사기록집</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="4">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >(구)청주시</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >(구)청원군</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="5"
+                          >교류현황</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="5">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >국외자매도시</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >국외우호도시</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >국내자매우호도시</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="6"
+                          >역대시장</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="6">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >역대 청주시장</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >역대 (구)청주시장</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >역대 (구)청원군수</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="7"
+                          >청주시 모바일 서비스</a
+                        >
+                        <i
+                          class="fa fa-plus menu-plus"
+                          aria-hidden="true"
+                        ></i>
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap" data-order="7">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주시 안전지키미</a
+                              >
+                            </li>
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link"
+                                >청주시 소통팔달</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="8"
+                          >청주시지</a
+                        >
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap pc" data-order="8">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link none"></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="9"
+                          >시정목표 및 시정방침</a
+                        >
+                        <!-- dept-3 -->
+                        <div class="dept-3-wrap pc" data-order="9">
+                          <ul class="dept-3">
+                            <li class="dept-3__item">
+                              <a href="#" class="dept-3__item-link none"></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <!-- dept-1__item -->
+              <li class="dept-1__item">
+                <a href="#" class="dept-1__item-link text-point" data-order="7"
+                  >문화관광</a
+                >
+                <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
+                <!-- dept-2-wrap -->
+                <div class="dept-2-wrap dept-2-culture" data-order="7">
+                  <div class="container">
+                    <!-- dept-2 -->
+                    <ul class="dept-2">
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="1"
+                          >관광명소</a
+                        >
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="2"
+                          >축제행사</a
+                        >
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="3"
+                          >시티투어</a
+                        >
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="4"
+                          >숙박</a
+                        >
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="5"
+                          >맛집</a
+                        >
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="6"
+                          >스토리텔링 e-book</a
+                        >
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="7"
+                          >청주자랑 100선</a
+                        >
+                      </li>
+                      <!-- dept-2__item -->
+                      <li class="dept-2__item">
+                        <a href="#" class="dept-2__item-link" data-order="8"
+                          >VR 사이버투어</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="m-shade"></div>
+        </div>
       </div>
-    </header>
+    </div>
+  </header>
 
     <!-- 메인 -->
-    <main class="main">
+    <main id="main" class="main">
       <div class="container">
         <div class="row">
           <div class="col-1">

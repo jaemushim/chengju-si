@@ -1,3 +1,19 @@
+// 본문바로가기
+$(".skip a").on("focus", function () {
+  $(this).css("top", "0");
+  $(this).css("opacity", "1");
+});
+
+$(".skip a").on("click", function () {
+  $(this).css("top", "-30");
+  $(this).css("opacity", "0");
+});
+
+$(".skip a").on("focusout", function () {
+  $(this).css("top", "-30");
+  $(this).css("opacity", "0");
+});
+
 //상단 팝업창
 function getCookie(cname) {
   var name = cname + "=";

@@ -79,6 +79,16 @@ button,
 address {
   font-style: normal;
 }
+.slick-prev:focus,
+.slick-next:focus {
+  outline: 1px solid#000 !important;
+}
+.slick-dots li button:focus {
+  outline: 1px solid #000 !important;
+}
+.slick-slider {
+  user-select: auto;
+}
 /* 유틸 */
 .container {
   max-width: 1200px;
@@ -94,7 +104,7 @@ address {
   display: flex;
 }
 .none {
-  display: none;
+  display: none !important;
 }
 .em-red {
   color: #df0101;
