@@ -293,8 +293,8 @@ $(document).ready(function () {
   });
 
   //민원 및 소통 섹션 - 미니 배너 슬라이더
-  $complaintPopupPrev = $(".complaint-sec .slick-prev");
-  $complaintPopupNext = $(".complaint-sec .slick-next");
+  $complaintPopupPrev = $(".complaint-sec .row .slick-prev");
+  $complaintPopupNext = $(".complaint-sec .row .slick-next");
   $(".banner-group").slick({
     infinite: true,
     rows: 1,
