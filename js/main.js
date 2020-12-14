@@ -462,13 +462,15 @@ $(document).ready(function () {
       {
         breakpoint: 520,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
+          autoplay: false,
         },
       },
       {
         breakpoint: 420,
         settings: {
           slidesToShow: 2,
+          autoplay: false,
         },
       },
     ],

@@ -1120,6 +1120,9 @@
   font-size: 13px;
   letter-spacing: -0.04em;
 }
+.mayor__list-item-wrapper li a:hover {
+  text-decoration: underline;
+}
 .mayor__link-box .list-2 {
   width: 154px;
 }
@@ -1830,7 +1833,7 @@
 }
 @media only screen and (min-width: 1200px) {
   .complaint-sec .row .col-1 .slick-arrow {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -3186,7 +3189,7 @@
     width: 50%;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 520px) {
   .footer .banner-item-wrap {
     width: 100%;
   }
