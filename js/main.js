@@ -502,6 +502,14 @@ function openTab(evt, contentName) {
   evt.currentTarget.className += " active";
 }
 
+for (i = 0; i < $(".news-sec .tab-links").length; i++) {
+  let name = $(`.news-sec .tab-links.n${i + 1}`).data("name");
+  $(`.news-sec .tab-links.n${i + 1}`).click(function () {
+    openTab(event, name);
+  });
+  console.log(name);
+}
+
 // 민원 및 소통 섹션 - 탭 메뉴 + slick 슬라이더
 $complaintSnsPrev = document.querySelector(".complaint-sec .row-2 .slick-prev");
 $complaintSnsNext = document.querySelector(".complaint-sec .row-2 .slick-next");
