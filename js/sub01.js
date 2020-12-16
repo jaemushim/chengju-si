@@ -1,33 +1,14 @@
-"use strict"; // 본문바로가기
-
-$(".skip a").on("focus", function () {
-  $(this).css("top", "0");
-  $(this).css("opacity", "1");
-});
-$(".skip a").on("click", function () {
-  $(this).css("top", "-30");
-  $(this).css("opacity", "0");
-});
-$(".skip a").on("focusout", function () {
-  $(this).css("top", "-30");
-  $(this).css("opacity", "0");
-}); //상단 팝업창
-
+//상단 팝업창
 function getCookie(cname) {
   var name = cname + "=";
   var ca = document.cookie.split(";");
-
   for (var i = 0; i < ca.length; i++) {
     var c = ca[i];
-
     while (c.charAt(0) == " ") c = c.substring(1);
-
     if (c.indexOf(name) != -1) return c.substring(name.length, c.length);
   }
-
   return "";
 }
-
 function setCookie(cname, cvalue, exdays) {
   var d = new Date();
   d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
@@ -39,23 +20,20 @@ function couponClose() {
   if ($("input[name='chkbox']").is(":checked") == true) {
     setCookie("close", "Y", 1);
   }
-
   $("#top-pop").hide();
 }
-
 $(document).ready(function () {
   cookiedata = document.cookie;
-
   if (cookiedata.indexOf("close=Y") < 0) {
     $("#top-pop").show();
   } else {
     $("#top-pop").hide();
   }
-
   $("#top-pop__close").click(function () {
     couponClose();
   });
 });
+
 $(document).ready(function () {
   // 언어 드롭다운
   $(".lang__link").click(function () {
