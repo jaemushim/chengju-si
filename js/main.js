@@ -507,7 +507,6 @@ for (i = 0; i < $(".news-sec .tab-links").length; i++) {
   $(".news-sec .tab-links.n" + (i + 1)).click(function () {
     openTab(event, name);
   });
-  console.log(name);
 }
 
 // 민원 및 소통 섹션 - 탭 메뉴 + slick 슬라이더
