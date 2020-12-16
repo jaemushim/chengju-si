@@ -906,6 +906,9 @@ td {
 .col-2 main .claim {
   margin-left: 10px;
 }
+.col-2 main .claim img {
+  width: 100%;
+}
 .col-2 main .claim li {
   margin: 0 10px;
   display: inline-block;
