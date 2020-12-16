@@ -941,6 +941,7 @@ td {
 .col-2 main .manager-info {
   border: 1px solid #aeaeae;
   padding: 10px 0;
+  color: #eee;
 }
 .col-2 main .manager-info li {
   display: inline-block;
