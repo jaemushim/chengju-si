@@ -503,8 +503,8 @@ function openTab(evt, contentName) {
 }
 
 for (i = 0; i < $(".news-sec .tab-links").length; i++) {
-  let name = $(`.news-sec .tab-links.n${i + 1}`).data("name");
-  $(`.news-sec .tab-links.n${i + 1}`).click(function () {
+  let name = $(".news-sec .tab-links.n" + (i + 1)).data("name");
+  $(".news-sec .tab-links.n" + (i + 1)).click(function () {
     openTab(event, name);
   });
   console.log(name);
