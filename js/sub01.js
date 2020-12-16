@@ -1,6 +1,5 @@
-"use strict";
+"use strict"; // 본문바로가기
 
-// 본문바로가기
 $(".skip a").on("focus", function () {
   $(this).css("top", "0");
   $(this).css("opacity", "1");
